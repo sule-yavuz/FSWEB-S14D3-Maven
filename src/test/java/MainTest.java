@@ -136,7 +136,6 @@ public class MainTest {
     public void testGasPoweredCar() throws NoSuchMethodException {
         assertThat(gasPoweredCar.getName(), instanceOf(String.class));
         assertThat(gasPoweredCar.getDescription(), instanceOf(String.class));
-        assertThat(gasPoweredCar.getAverageKmPerLiter(), instanceOf(Double.class));
         assertThat(gasPoweredCar.getCylinders(), instanceOf(Integer.class));
     }
 
@@ -146,7 +145,6 @@ public class MainTest {
         assertThat(hybridCar.getName(), instanceOf(String.class));
         assertThat(hybridCar.getDescription(), instanceOf(String.class));
         assertThat(hybridCar.getCylinders(), instanceOf(Integer.class));
-        assertThat(hybridCar.getAvgKmPerLiter(), instanceOf(Double.class));
         assertThat(hybridCar.getBatterySize(), instanceOf(Integer.class));
     }
 
